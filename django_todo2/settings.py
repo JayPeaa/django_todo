@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '6v-=@5@d5=f$%_==*f7l75f$g3_dksrv5aj1m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = [os.environ.get('a68b75f3066646029ed622684e7a0564.vfs.cloud9.us-east-1.amazonaws.com'),
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
                  os.environ.get('HOSTNAME')]
 
 
