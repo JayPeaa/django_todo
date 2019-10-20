@@ -30,6 +30,9 @@ ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
                  os.environ.get('HOSTNAME')]
 
 
+host = os.environ.get('SITE_HOST')
+if host:
+    ALLOWED_HOSTS.append(host)
 # 'simple-django-todo22.herokuapp.com'
 # a68b75f3066646029ed622684e7a0564.vfs.cloud9.us-east-1.amazonaws.com
 
